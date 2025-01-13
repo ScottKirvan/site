@@ -1,4 +1,4 @@
-module github.com/hbstack/site
+module github.com/ScottKirvan/site
 
 go 1.21.3
 
