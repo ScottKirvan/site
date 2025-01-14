@@ -81,4 +81,9 @@ jobs:
         uses: actions/deploy-pages@v2
 
       - name: Print deployment URL
-        run: echo "Deployment URL: ${{ steps.deployment.outputs.page_url }}"
+        env:
+          DEPLOYMENT_URL: ${{ steps.deployment.outputs.page_url }}
+        run: echo "Deployment URL: $DEPLOYMENT_URL"
+:w
+
+
