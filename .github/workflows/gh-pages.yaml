@@ -84,6 +84,5 @@ jobs:
         env:
           DEPLOYMENT_URL: ${{ steps.deployment.outputs.page_url }}
         run: echo "Deployment URL: $DEPLOYMENT_URL"
-:w
 
 
